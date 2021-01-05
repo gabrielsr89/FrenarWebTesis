@@ -1,0 +1,67 @@
+@font-face{
+    font-family: blackie;
+    src: url(../img/titulos.ttf);    
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.form-signin{
+    width: 100%;
+    width: 500px;
+    max-width: 600px !important;
+    padding: 15px;
+    margin: auto;
+}
+
+#secundarios{
+    font-weight: bold !important;
+    color: ivory;
+}
+
+#ServiFrenos{
+    font-size: 70px;
+    font-family:  blackie;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    text-align: center; 
+    margin-bottom: 0px !important;
+    line-height: 1;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*Manejo de tablas*/
+#breakrowTop{
+    height: 20px !important;    
+}
+#breakrowBottom{
+    height: 10px !important;    
+}
+#brakrowMiddle{
+    height: 15px !important;  
+}
+#aceptarDiv{
+    text-align: center;
+}
+
+
+.form-altapersona{
+    width: 60%;       
+    padding: 15px;
+    margin: auto;
+    color: ivory;
+    font-size: 17px;
+}
+
+
+
+

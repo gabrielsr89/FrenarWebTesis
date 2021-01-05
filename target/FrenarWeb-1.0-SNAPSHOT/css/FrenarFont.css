@@ -1,0 +1,90 @@
+fondomain@font-face{                
+    font-family: frenarFont;
+    src: url(FrenarFont.ttf);  
+}
+.texto-borde{
+    -webkit-text-stroke: 2px black;
+    color: white !important;  
+}
+#titulo{
+    -webkit-text-stroke: 6px white;
+    color: red !important;      
+    font-family: frenarFont;
+    font-size: 150px;
+    text-align: center;
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 128px;
+    margin-bottom: 0px;
+}
+#iconos{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+.subtitulos{
+    align-items: center;
+    justify-content: center;  
+    font-size: 50px;
+    text-align:center;
+}
+#fondox{
+    background: white url("../img/fondomain.jpg") fixed content-box ;
+    background-color: white;    
+      
+}
+#fondomain{
+    background: red url("../img/fondox.jpg") no-repeat fixed center ;
+    background-color: #4586FA;
+     background-size: cover; 
+    
+}
+#contenedorImg{
+    border: black 2px inset;
+    
+}
+.img{
+    width: 130px;
+    height: 130px;
+}
+#contactoColor{
+    width: 2px;  
+    height: 2px;
+}
+.ubicacion{   
+  display: flex !important;
+  align-items: center;  
+}
+.ubicacion span{
+    display:flex !important;
+    align-items: center;
+    padding-left: 30px;
+}
+#logoFont{
+    -webkit-text-stroke: 6px ivory;
+    color: red !important;      
+    font-family: frenarFont;
+    font-size: 230px;
+    text-align: center;
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+#bordes{
+    border: ivory 4px solid;
+    border-radius: 20px;
+}
+
+.celdas{
+    width: 16%;
+}
+
+.mercadopago-button{
+    display:none;
+    
+}
+
+
+

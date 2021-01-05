@@ -1,0 +1,22 @@
+.ubicacionGeneral{
+    position: relative;
+    top:100px;
+}
+.ubiacionResto{
+   
+}
+
+.headerGeneral{
+    font-family: blackie;
+    font-size: 15px;
+    color: ivory !important;    
+}
+
+#tituloHeader{
+    -webkit-text-stroke: 2px white;
+    color: red !important;      
+    font-family: frenarFont;
+    font-size: 50px;
+    text-align: center;    
+    line-height: 30px;
+}
